@@ -1,0 +1,81 @@
+/* Here we can add anything we want to suit our project. */
+body{
+	background: url(../img/background.jpg) no-repeat fixed center;
+}
+
+.jumbotron{
+	padding: 30px;
+}
+
+.container{
+	padding-top:100px;
+	margin: 0 auto; /* A quick hack to stop stuff from disappearing below fixed navbar: Change this if it's not suitable for your project. */
+}
+textarea{
+	height:140px;
+}
+form{
+	max-width:400px; /* A quick hack to stop forms from being waaaayyy tooo wide. Remove if you don't like. */
+}
+
+main{
+	margin-top: 4rem;
+}
+
+input,
+textarea{
+	width:20rem;
+}
+
+.outer-container{
+	display: flex;
+	width: 100%;
+	background-color: rgba(192, 187, 187, 0.618);
+}
+
+.loop_container{
+	width: 80%;
+	margin-right: 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.filter_container{
+	width: 15%;
+}
+
+.detail-container{
+	width: 80%;
+	padding: 1rem;
+	margin-right: 2%;
+	
+}
+
+.detail-container > div{
+	margin-bottom: 1rem;
+}
+
+.img-container > img{
+	width: 450px;
+	
+}
+
+.trailer{
+	width: 500px;
+}
+
+.video-trailer > iframe{
+	width: 700px;
+	height:400px ;
+	margin: 0 auto;
+}
+
+.search-button input{
+	width: 150px;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.search-input input{
+	width: 150px;
+}
